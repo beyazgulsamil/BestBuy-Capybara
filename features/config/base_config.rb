@@ -7,4 +7,8 @@ module BaseConfig
   def self.browser
     @browser
   end
+  @base_url ="https://www.bestbuy.com"
+  def self.base_url
+    @base_url
+  end
 end
